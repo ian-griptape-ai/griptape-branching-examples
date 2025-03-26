@@ -56,6 +56,3 @@ print("OUTPUT")
 for task in workflow.tasks:
     if task.output != None:
         pprint(task.output.value)
-
-
-# workflow.run("The hotel was awful. There were bugs in my bed")
